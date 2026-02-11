@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+const { useState, useEffect } = React;
 
 // ============================================================
 // DATA - STOCKS
@@ -1181,4 +1181,5 @@ const App = () => {
   );
 };
 
-export default App;
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
